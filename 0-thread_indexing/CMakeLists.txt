@@ -1,0 +1,2 @@
+add_executable(thread_indexing thread_indexing.cu)
+target_link_libraries(thread_indexing CUDA::cudart)
